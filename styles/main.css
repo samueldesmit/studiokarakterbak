@@ -238,7 +238,8 @@ min-height: 400px;
       font-size: 60px;   }
     }
     .work-block-tekst p {
-      color: black     }
+      color: black;
+         }
     .welkom .work-block:hover  .work-block-tekst {
       opacity: 0.8;
       transition: all .3s ease;
