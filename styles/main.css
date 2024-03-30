@@ -25,6 +25,7 @@ body {
   height: 70px;
   padding: 0 40px 0 15px;
   min-width: 100;
+  box-shadow: 0 -9px 10px 5px rgba(0, 0, 0, 0.5);
 }
 
 .logo {
@@ -137,8 +138,8 @@ body {
   flex-direction: column;
   overflow: hidden;
   opacity: 1;
-  max-height: 500px;
-  min-height: 500px;
+  max-height: 380px;
+  min-height: 380px;
   position: relative;
 }
 
@@ -171,20 +172,6 @@ body {
 
 .welkom .work-block img:hover {
   /* opacity: 0; */
-}
-
-.welkom .work-block iframe {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  max-height: 80px;
-  height: 80px;
-  overflow: hidden;
-  height: 100%;
-  overflow: hidden;
-  object-fit: cover;
-  opacity: 1;
-  transition: all 0.3s ease;
 }
 .work-block-tekst {
   position: absolute;
