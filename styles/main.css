@@ -49,7 +49,7 @@ body {
   transition: all 0.3s ease;
 }
 .menu-open .burger-bar:nth-child(1) {
-  transform: rotate(45deg) translate(5px, 0px);
+  transform: rotate(45deg) translate(5px, 1px);
   transition: all 0.3s ease;
 }
 .menu-open .burger-bar:nth-child(3) {
@@ -100,11 +100,13 @@ body {
 @media screen and (max-width: 768px) {
   .menu ul {
     width: 100vw;
+    display: none;
   }
 }
 .menu {
 }
 .menu .js-open {
+  display: flex;
   transform: translateX(0%);
   transition: all 0.3s ease;
 }
