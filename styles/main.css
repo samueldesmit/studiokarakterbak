@@ -26,6 +26,7 @@ body {
   padding: 0 40px 0 15px;
   min-width: 100;
   box-shadow: 0 -9px 10px 5px rgba(0, 0, 0, 0.5);
+  overflow-x: hidden;
 }
 
 .logo {
@@ -101,13 +102,11 @@ body {
 @media screen and (max-width: 768px) {
   .menu ul {
     width: 100vw;
-    display: none;
   }
 }
 .menu {
 }
 .menu .js-open {
-  display: flex;
   transform: translateX(0%);
   transition: all 0.3s ease;
 }
